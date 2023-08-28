@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.LeftContainer{
+    width: 100%;
+    min-height:100%;
+    background-color:  #3A4B55;    
+}
+
+.LeftContainer nav> :hover {
+    background-color: #212b31;
+    box-sizing: border-box;
+    
+}
