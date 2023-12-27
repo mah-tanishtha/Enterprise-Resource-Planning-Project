@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.RightContainer_DeptType {
+    width: 80%;
+    min-height: 545px;
+}
+
+.CreateEmp_DeptTypePanel {
+    padding: 10px 0px 5px 10px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.DeptTypecont {
+    width: 100%;
+    /* margin: 20px; */
+    /* padding-left: 5px; */
+}
+
+
+.deptinput {
+    width: 50%;
+}
+
+.deptinput input {
+    width: 60%;
+    margin-top: 10px;
+    /* margin: 15px 0px 0px 0px;
+} */}
+.deptinput label {
+    width: 50%;
+    /* margin: 15px 0px 0px 0px;
+} */}
+
+
+.orginput {
+    /* margin-top: 2px; */
+    width: 50%;
+}
+
+.orginput select {
+    width: 50%;
+    /* height: 70%; */
+    /* margin: 5px 0px 0px 30px; */
+}
+
+#depttypebtn{
+    width: 50%;
+    margin-top:30px ;
+}
+
+#depttypebtn button {
+    width: 100px;
+    margin: 5px 30px 0px 10px;
+}

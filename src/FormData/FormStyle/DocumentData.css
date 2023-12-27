@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.ddRightContainer_UploadDoc{
+    width: 80%;
+    height: 100%;
+    
+}
+
+.ddUploadDoc_Panel{
+    padding: 10px 0px 5px 10px;
+    margin-top: 15px;
+    width: 100%;
+    background-color:#e1e1e1;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.ddEmployeeSelection_Panel{
+    width:100%;
+    border:  1px solid gainsboro;
+    height: 100px;
+    padding: 10px 0px 0px 10px;
+    margin-top: 10px;
+    
+
+}
+
+
+#d_name{
+    width: 100%;  
+}
+
+.ddEmployeeSelection_Panel div > div{
+    width: 300px;
+    margin-left: 25px;
+   
+}
+
+#ddname{
+    border: 1px solid gainsboro;
+}
+

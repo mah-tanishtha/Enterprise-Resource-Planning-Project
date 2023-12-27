@@ -1,0 +1,49 @@
+{
+  "transferdata": [
+    {
+      "name": "Ravi",
+      "code": "111",
+      "designation": "Developer",
+      "type": "Contract",
+      "pay": "1000",
+      "dept": "Hartron",
+      "email": "ravi@gmail.com"
+    },
+    {
+      "name": "Rakul",
+      "code": "222",
+      "designation": "Designer",
+      "type": "Semi-Contract",
+      "pay": "2000",
+      "dept": "Railtel",
+      "email": "rakul@gmail.com"
+    },
+    {
+      "name": "Surili",
+      "code": "333",
+      "designation": "Associate Develeper",
+      "type": "Permanent",
+      "pay": "2000",
+      "dept": "GMDA",
+      "email": "surili@gmail.com"
+    },
+    {
+      "name": "Kanali",
+      "code": "444",
+      "designation": "Jn Developer",
+      "type": "Outsource",
+      "pay": "2000",
+      "dept": "FMDA",
+      "email": "kanalo@gmail.com"
+    },
+    {
+      "name": "Shara",
+      "code": "555",
+      "designation": "Sr. Developer",
+      "type": "Permanent",
+      "pay": "1000",
+      "dept": "Hartron",
+      "email": "shara@gmail.com"
+    }
+  ]
+}

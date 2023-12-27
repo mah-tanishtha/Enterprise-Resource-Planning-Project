@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.LeftContainer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #3A4B55;
+
+}
+
+.LeftContainer nav> :hover {
+    background-color: #212b31;
+    box-sizing: border-box;
+
+}
+
+/* .scrollcont{
+    overflow-y: scroll;
+}
+
+.scrollcont::-webkit-scrollbar {
+    width: 15px;
+    
+    /* Width of the scrollbar */
+/* } */ */
+
+.scrollcont::-webkit-scrollbar-thumb {
+    background-color: #8b4242;
+    width: 15px;
+    
+    /* Color of the scrollbar thumb */
+    border-radius: 15px;
+    /* Rounded corners for the thumb */
+}
+
+.scrollcont::-webkit-scrollbar-track {
+    background-color: #c8cdcf;
+    /* Color of the scrollbar track */
+}

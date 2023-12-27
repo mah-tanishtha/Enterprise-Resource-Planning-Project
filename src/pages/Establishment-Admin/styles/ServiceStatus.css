@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.RightContainer_ServiceStatus {
+    width: 80%;
+    min-height: 545px;
+
+}
+
+.CreateEmp_ServiceStatusPanel {
+    padding: 10px 0px 5px 10px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+}
+
+
+
+.serviceStatuscont  {
+    width: 100%;
+    /* margin: 20px; */
+    /* padding-left: 5px; */
+}
+
+.Serviceinput {
+    width: 50%;
+    padding: 10px;
+}
+
+.Serviceinput input {
+    width: 40%;
+    margin-top: 10px;
+    /* margin: 15px 0px 0px 0px;
+} */}
+.Serviceinput label {
+    width: 40%;
+    /* margin: 15px 0px 0px 0px;
+} */}
+
+.Serviceorginput {
+    /* margin-top: 2px; */
+    width: 50%;
+    padding: 10px;
+}
+
+.Serviceorginput label {
+    width: 40%;
+    /* margin: 15px 0px 0px 0px;
+} */}
+
+.Serviceorginput select {
+    width: 50%;
+    /* height: 60%; */
+    /* margin: 5px 0px 0px 30px; */
+}
+
+
+#Servicestatusbtn {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#Servicestatusbtn button {
+    width: 80px;
+    margin-left: 5px;
+    height: 40px;
+}

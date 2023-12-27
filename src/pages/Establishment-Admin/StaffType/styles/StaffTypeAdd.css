@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#stafftypeAddbtn button{
+    width: 120px;
+    margin-left: 4px;
+    margin-top: 10px;
+}

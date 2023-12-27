@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Bubble.css'
+import '../pages/Establishment-Admin/styles/Bubble.css'
 
 function Bubble() {
     return (

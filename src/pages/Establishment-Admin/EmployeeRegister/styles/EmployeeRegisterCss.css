@@ -1,0 +1,12 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+.RightContainer_employee{
+    width: 80%;
+    min-height: 87.5vh;
+    
+}

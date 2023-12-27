@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.promotypecont {
+    border: 1px solid gainsboro;
+    padding: 0px;
+    margin-top: 10px;
+    /* background-color: aliceblue; */
+}
+
+.emppromoinput{
+    padding: 10px;
+}
+
+.showdetailcont {
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+
+.showdetailcont span{
+    font-size: large;
+    font-weight: 600;
+}
+
+.empPromodetail {
+    width: 50%;
+    padding: 10px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+
+.empPromodetail label {
+    height: 50%;
+}
+
+.PromoContainer label span {
+    color: red;
+}
+
+.empPromodetail input {
+    width: 100%;
+}
+
+.PromoContainer {
+    width: 50%;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+}
+
+.PromoContainer input {
+    width: 100%;
+}
+
+.PromoContainer label {
+    width: 100%;
+}
+
+.PromoContainer select {
+    width: 100%;
+}
+
+
+#emppromobtn button {
+    width: 160px;
+
+}

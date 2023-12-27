@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.TransferTypecont {
+    border: 1px solid gainsboro;
+    margin-top: 20px;
+
+}
+
+.transferdetailinput {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid gainsboro;
+}
+
+.transferdetailinput select {
+    width: 25%;
+    margin-left: 12px;
+}
+
+.showdetailcont {
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+
+.showdetailcont span {
+    margin-left: 5px;
+
+}
+
+.transferdetail {
+    width: 100%;
+}
+
+.transferdetail label {
+    width: 30%;
+}
+
+.transferformdiv label span {
+    color: red;
+}
+
+.transferdetail input {
+    width: 70%;
+}
+
+#transferDetailSpan{
+   display: flex;
+   justify-content: center;
+}
+
+.transferformdiv {
+
+    width: 50%;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+}
+
+.transferformdiv div input {
+    width: 70%;
+}
+
+.transferformdiv div label {
+    width: 100%;
+}
+
+.transferformdiv div select {
+    width: 100%;
+}
+
+.transferformdiv div textarea {
+    width: 77%;
+}
+
+#transferdetailbtn {
+    width: 100%;
+
+    border: 1px solid gainsboro;
+}
+
+#transferdetailbtn button {
+    margin: 15px;
+}
+
+#transferdetailbtn button {
+    width: 20%;
+
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#promo-detail-div {
+    width: 100%;
+    padding: 10px;
+}
+.emptypecont{
+    
+
+    
+}
+
+.inputdiv {
+    width: 40%;
+}
+
+.inputdiv select {
+    width: 100%;
+}
+
+.inputdiv label {
+    width: 100%;
+}
+
+#PromoDetailbtn {
+    width: 100%;
+    height: 100%;
+   
+}
+
+.child-promo-div {
+    position: relative;
+    margin-left: 15px;
+    width: 100%;
+    height: 40px;
+    top:35px;
+
+
+}

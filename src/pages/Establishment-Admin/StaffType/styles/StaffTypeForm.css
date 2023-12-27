@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.staffTypeAddContainer{
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid gainsboro;
+    margin-top: 15px;
+}
+
+form div label{
+    width: 50%;
+}
+form div input{
+    width: 100%;
+}
+
+
+#staffTypebuttons{
+    width:100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+#staffTypebuttons button{
+    width:150px;
+    margin: 10px;
+}

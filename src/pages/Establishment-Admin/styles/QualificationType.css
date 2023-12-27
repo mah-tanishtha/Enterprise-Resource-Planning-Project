@@ -1,0 +1,10 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#qualificationtypebtn button{
+    width: 120px;
+    margin: 10px 0px 0px 2px ;
+}

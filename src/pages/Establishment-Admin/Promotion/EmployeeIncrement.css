@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.empIncrementcont {
+    border: 1px solid gainsboro;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.empIncrementinput {
+    padding: 0px 0px 10px 5px;
+}
+
+
+
+.showdetailcont {
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+
+.empIncrementdetail {
+   width: 50%;
+    padding: 10px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+
+.empdetail label {
+    width: 40%;
+}
+
+.IncrementContainer label span {
+    color: red;
+}
+
+.empdetail input {
+    width: 100%;
+}
+
+.IncrementContainer {
+    width: 50%;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+}
+
+.IncrementContainer div input {
+    width: 100%;
+}
+.IncrementContainer div label{
+    width: 100%;
+}
+
+/* .transferformdiv div label {
+    width: 40%;
+} */
+
+.IncrementContainer div select {
+    width: 100%;
+}
+
+/* .transferformdiv div textarea {
+    width: 70%;
+} */
+
+/* #transferdetailbtn {
+    margin-left: 300px;
+} */
+
+
+
+#empIncrementbtn  {
+    width: 100%;
+   padding: 10px;
+}
+
+#empIncrementbtn button{
+    width:150px;
+    margin-left: 1%;
+
+}

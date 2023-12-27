@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.FormRightContainer_employee{
+    width: 60rem;
+}
+
+
+.CreateEmp_Panel{
+    padding: 10px 0px 5px 10px;
+    margin-top: 15px;
+    width: 100%;
+    background-color:#e1e1e1;
+    border-radius: 5px;
+    align-content: center;
+}
+
+
+.imgDiv{
+    
+    padding: 10px 25px;
+    width: 20%;
+    height: 100%;
+    font-size: 130px;
+    
+}
+
+.CreateForm_employee{
+    padding: 5px 15px 8px 15px;
+    border: 1px solid gainsboro;  
+}

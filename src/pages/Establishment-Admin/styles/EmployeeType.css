@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.RightContainer_employeeType{
+    width: 80%;
+    min-height:545px;
+    
+}
+
+.emptypecont{
+    padding-left: 5px;
+}
+.emptypecont label{
+    width: 100%;
+}
+.emptypecont form {
+    padding: 15px;
+}
+
+#emptypebtn{
+    margin-top: 10px;
+}
+
+#emptypebtn button{
+    width: 160px;
+    margin-left: 2px;
+}

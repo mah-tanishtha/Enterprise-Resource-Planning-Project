@@ -1,16 +1,17 @@
 import React from 'react'
-import '../styles/Navbar.css'
-import gmdaLogo from '../assests/images/gmdaLogo.png'
+import '../pages/Establishment-Admin/styles/Navbar.css'
+import fmdaLogo from '../assests/images/fmda.logo.png'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
         <div>
             <nav className="navbar navbar-light bg-info">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
-                        <img className='logo' src={gmdaLogo} alt="" width="150" height="30" class="d-inline-block align-text-top" />
+                    <Link className="navbar-brand" to="#">
+                        <img className='logo' src={fmdaLogo} alt="" width="100" height="30" class="d-inline-block align-text-top" />
                         <span className='navbarHeading'>Welcome to ERP Website !</span>
-                    </a>
+                    </Link>
                 </div>
             </nav>
 

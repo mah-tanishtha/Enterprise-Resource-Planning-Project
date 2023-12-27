@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-boxs;
+}
+
+.RightContainer_DocListType {
+    width: 80%;
+    min-height: 545px;
+}
+
+.CreateEmp_DocListTypePanel {
+    padding: 10px 0px 5px 10px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.DocumentListcont {
+    width: 100%;
+    /* margin: 20px; */
+    /* padding-left: 5px; */
+}
+/* .DocumentListcont{
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid gainsboro;
+    margin-top: 15px;
+} */
+
+.docListinput{
+    width: 50%;
+    margin-top: 15px;
+}
+
+.docListinput input {
+    width: 60%;
+    margin-top: 10px;
+    /* margin: 15px 0px 0px 0px;
+} */}
+
+.docListinput label {
+    width: 50%;
+    /* margin: 15px 0px 0px 0px;
+} */}
+
+
+.DocTypeinput{
+    /* margin-top: 2px; */
+    width: 50%;
+    margin-top: 15px;
+}
+
+.DocTypeinput label{
+    width: 50%;
+}
+
+.DocTypeinput input {
+    width: 60%;
+    /* height: 70%; */
+    /* margin: 5px 0px 0px 30px; */
+}
+
+
+#docListypebtn{
+    width: 50%;
+    margin-top:30px ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#docListypebtn button {
+    width: 100px;
+    margin: 5px 30px 0px 10px;
+}

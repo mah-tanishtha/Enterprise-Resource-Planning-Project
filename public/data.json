@@ -1,0 +1,71 @@
+{
+  "transferdata": [
+    {
+      "id": 1,
+      "name": "Ravi",
+      "code": "111",
+      "designation": "Developer",
+      "type": "Contract",
+      "pay": "1000",
+      "dept": "Hartron",
+      "email": "ravi@gmail.com",
+      "pastOrganization" : "DRDA",
+      "organization":"GMDA"
+    },
+    {
+      "id": 2,
+      "name": "Rakul",
+      "code": "222",
+      "designation": "Designer",
+      "type": "Semi-Contract",
+      "pay": "2000",
+      "dept": "Railtel",
+      "email": "rakul@gmail.com",
+      "pastOrganization":"HRSAC"
+    },
+    {
+      "id": 3,
+      "name": "Surili",
+      "code": "333",
+      "designation": "Associate Develeper",
+      "type": "Permanent",
+      "pay": "2000",
+      "dept": "GMDA",
+      "email": "surili@gmail.com",
+      "pastOrganization":"HIPA"
+    },
+    {
+      "id": 4,
+      "name": "Kanali",
+      "code": "444",
+      "designation": "Jn Developer",
+      "type": "Outsource",
+      "pay": "2000",
+      "dept": "FMDA",
+      "email": "kanalo@gmail.com",
+      "pastOrganization":"HSVP"
+    },
+    {
+      "id": 5,
+      "name": "Shara",
+      "code": "555",
+      "designation": "Sr. Developer",
+      "type": "Permanent",
+      "pay": "1000",
+      "dept": "Hartron",
+      "email": "shara@gmail.com",
+      "pastOrganization":"PWD"
+    },
+    {
+      "id": 6,
+      "name": "abc",
+      "code": "12345",
+      "designation": "Sr. Developer",
+      "type": "Permanent",
+      "pay": "100000",
+      "dept": "Hartron",
+      "email": "abc@gmail.com",
+      "pastOrganization":"Phed"
+    }
+  ]
+}
