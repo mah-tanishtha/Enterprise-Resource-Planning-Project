@@ -5,15 +5,16 @@ import './styles/EmployeeRegisterCss.css'
 import barchart1 from '../../../assests/images/bar-chart1.png'
 import barchart2 from '../../../assests/images/bar-chart2.png'
 import barchart3 from '../../../assests/images/bar-chart3.png'
-import IconLabelButtons from './AddEmployeeButton'
 import EmployeeRegisterModal from './EmployeeRegisterModal'
 import RightFooter from '../../../components/RightFooter'
 
+
 function EmployeeRegister() {
+    
     return (
         <div>
             <div className='d-flex'>
-                <SideNavbar />
+            <SideNavbar name='Establishment-Admin'/>
                 <div className='RightContainer_employee mx-4 mt-4'>
                     <div className='d-flex flex-row '>
                         <div className='mx-4'>

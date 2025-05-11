@@ -3,7 +3,7 @@ import '../pages/Establishment-Admin/styles/SideNavbar.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGrip, faBook, faFolder, faSuitcaseRolling, faAngleDown, faArrowUpRightFromSquare, faPen, faNetworkWired } from '@fortawesome/free-solid-svg-icons';
+import { faGrip, faBook, faFolder, faSuitcaseRolling, faAngleDown, faArrowUpRightFromSquare, faPen, faNetworkWired, faPlus } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -39,12 +39,20 @@ function SideNavbar(props) {
         list10: false,
         list11: false,
         list12: false,
+        
     });
+
+    const [ internalList , setInternalList] = useState({
+        internalList1 : false,
+        internalList2: false,
+        internalList: false,
+    })
 
 
     const afterStyle = {
         fontSize: '14px',
         paddingLeft: '30px',
+        
     }
 
     const showList = (listId) => {
@@ -54,6 +62,16 @@ function SideNavbar(props) {
         }));
 
     }
+
+    const showInternalList = (listId) => {
+        setInternalList((prevState) => ({
+            ...prevState,
+            [listId]: !prevState[listId]
+        }));
+
+    }
+
+
 
     return (
         <div>
@@ -153,7 +171,7 @@ function SideNavbar(props) {
                                         </>
                                     )}
 
-                                    <Link className="sidenavheading nav-link active text-white fs-6 fw-light" aria-current="page" to="#" onClick={() => showList('list4')} style={ListStyle(showDetail['list4'])} ><FontAwesomeIcon icon={faBook} style={{ "--fa-primary-opacity": "0.9", "marginRight": "10px" }} />Service Book Details<FontAwesomeIcon icon={faAngleDown} style={{ "paddingLeft": "10px", "position": "absolute", "left": "-10px", "transform": "translate(200,6px)" }} /></Link>
+                                    <Link className="sidenavheading nav-link active text-white fs-6 fw-light" aria-current="page" to="#" onClick={() => showList('list4')} style={ListStyle(showDetail['list4'])} ><FontAwesomeIcon icon={faBook} style={{ "--fa-primary-opacity": "0.9", "marginRight": "10px" }} />Service Book Details<FontAwesomeIcon icon={faAngleDown} style={{ "paddingLeft": "10px", "position": "absolute","marginTop" :"5px","marginLeft":"15px", "transform": "translate(200,6px)" }} /></Link>
 
                                     {showDetail['list4'] && (
                                         <>
@@ -168,8 +186,7 @@ function SideNavbar(props) {
                                     )}
 
 
-                                    <Link className="sidenavheading nav-link active text-white fs-6 fw-light" aria-current="page" to="#" onClick={() => showList('list5')} style={ListStyle(showDetail['list5'])} ><FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{ "--fa-primary-opacity": "0.9", "marginRight": "10px" }} />New User Performa<FontAwesomeIcon icon={faAngleDown} style={{ "paddingLeft": "10px", "position": "absolute", "left": "-10px", "transform": "translate(200px,6px)" }} /></Link>
-
+                                    <Link className="sidenavheading nav-link active text-white fs-6 fw-light" aria-current="page" to="#" onClick={() => showList('list5')} style={ListStyle(showDetail['list5'])} ><FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{ "--fa-primary-opacity": "0.9", "marginRight": "10px" }} />New User Performa<FontAwesomeIcon icon={faAngleDown} style={{ "paddingLeft": "10px", "position": "absolute", "left": "-10px", "transform": "translate(200px,6px)" }} /></Link>  
 
                                     {showDetail['list5'] && (
                                         <>
@@ -185,13 +202,42 @@ function SideNavbar(props) {
                                 </>
                             case 'Leave-Admin':
                                 return <>
-                                    <Link className="nav-link active text-white fs-6 fw-light pe-3" aria-current="page" onClick={() => showList('list1')} style={ListStyle(showDetail['list1'])} ><FontAwesomeIcon icon={faFolder} style={{ "--fa-primary-opacity": "0.9", "marginRight": "5px" }} />Leave Managment<FontAwesomeIcon icon={faAngleDown} style={{ "paddingLeft": "10px", "position": "absolute", "left": "-46px", "transform": "translate(200px,8px)" }} /></Link>
+                                    <Link className="nav-link active text-white fs-6 fw-light pe-3" aria-current="page" onClick={() => showList('list1')} style={ListStyle(showDetail['list1'])} ><FontAwesomeIcon icon={faFolder} style={{ "--fa-primary-opacity": "0.9", "marginRight": "5px" }} />Leave Managment</Link>
                                     {showDetail['list1'] && (
                                         <>
-                                            <Link className="nav-link active text-white  " aria-current="page" to="#" style={afterStyle}>Leave Master</Link>
-                                            <Link className="nav-link active text-white " aria-current="page" to="#" style={afterStyle}>Leave Transaction</Link>
-                                            <Link className="nav-link active text-white  " aria-current="page" to="#" style={afterStyle}>Leave Report</Link>
-
+                                            <Link className="nav-link active text-white  fs-6 fw-light pe-3" aria-current="page" to="#" style={afterStyle} onClick={()=>showInternalList('internalList1')}>Leave Master<FontAwesomeIcon icon={faAngleDown} style={{ "paddingLeft": "10px", "position": "absolute", "left": "-60px", "transform": "translate(200px,6px)" }} /></Link>
+                                            {  internalList['internalList1'] && (
+                                                <>
+                                                    <Link className="nav-link text-white active text-white" aria-current="page" to={`/leave-type/${AccountName}`} style={afterStyle} > Leave Type</Link>
+                                                    <Link className="nav-link active text-white" aria-current="page"  to={`/leave-master/${AccountName}`} style={afterStyle} > Leave Master</Link>  
+                                                    <Link className="nav-link active text-white" aria-current="page"  style={afterStyle} to={`/leave-calender/${AccountName}`}> Holiday Calender</Link>
+                                                    <Link className="nav-link active text-white" aria-current="page"  style={afterStyle}  to={`/leave-policy/${AccountName}`}> Leave Policy</Link>
+                                                    
+                                                </>
+                                                )
+                                            }
+                                            <Link className="nav-link active text-white text-white fs-6 fw-light pe-3" aria-current="page" to="#" style={afterStyle} onClick={()=>showInternalList('internalList2')}>Leave Transaction<FontAwesomeIcon icon={faAngleDown} style={{ "paddingLeft": "10px", "position": "absolute", "left": "-60px", "transform": "translate(200px,6px)" }} /></Link>
+                                            {  internalList['internalList2'] && (
+                                                <>
+                                                    <Link className="nav-link active text-white" aria-current="page"  style={afterStyle} to={`/leave-approval/${AccountName}`} > Leave Approval</Link>
+                                                    <Link className="nav-link active text-white" aria-current="page"  style={afterStyle} > Leave Allocation</Link>  
+                                                    <Link className="nav-link active text-white" aria-current="page"  style={afterStyle} > Leave Adjustment</Link>
+                                                    <Link className="nav-link active text-white" aria-current="page"  style={afterStyle} > Processed / unprocesses Leaves</Link>
+                                                    <Link className="nav-link active text-white" aria-current="page"  style={afterStyle} > New Employee Leave Processing</Link>
+                                                </>
+                                                )
+                                            }
+                                            
+                                            <Link className="nav-link active text-white  text-white fs-6 fw-light pe-3" aria-current="page" to="#" style={afterStyle} onClick={()=>showInternalList('internalList3')}>Leave Report<FontAwesomeIcon icon={faAngleDown} style={{ "paddingLeft": "10px", "position": "absolute", "left": "-60px", "transform": "translate(200px,6px)" }} /></Link>
+                                            {  internalList['internalList3'] && (
+                                                <>
+                                                    <Link className="nav-link active text-white" aria-current="page"  style={afterStyle} > Leave Status</Link>
+                                                    <Link className="nav-link active text-white" aria-current="page"  style={afterStyle} > Leave Status Chart</Link>  
+                                                    <Link className="nav-link active text-white" aria-current="page"  style={afterStyle} > Employees Leave Chart</Link>
+                                                    <Link className="nav-link active text-white" aria-current="page"  style={afterStyle} > Leave Card</Link>
+                                                </>
+                                                )
+                                            }
 
                                             {/* <Link className="nav-link active text-white border-bottom " aria-current="page" to="#" style={afterStyle}>Bulk Employee Upload</Link> */}
                                         </>

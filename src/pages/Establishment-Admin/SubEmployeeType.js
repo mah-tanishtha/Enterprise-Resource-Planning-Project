@@ -20,7 +20,7 @@ function SubEmployeeType() {
   return (
     <div>
       <div className='d-flex'>
-                <SideNavbar />
+                <SideNavbar name="Establishment-Admin"/>
                 <div className='RightContainer_SubEmpType mx-4'>
                     <div className='CreateEmp_SubEmpTypePanel'>
                         <h6> Employee Type :</h6>

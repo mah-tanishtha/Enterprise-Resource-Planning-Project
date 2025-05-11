@@ -35,7 +35,7 @@ function AddDesignation() {
   return (
     <div>
       <div className='d-flex'>
-                <SideNavbar />
+                <SideNavbar name="Establishment-Admin"/>
                 <div className='RightContainer_DeptType mx-4'>
                     <div className='CreateEmp_DeptTypePanel'>
                         <h6> Designation Details  :</h6>

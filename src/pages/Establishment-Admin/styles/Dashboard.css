@@ -6,6 +6,9 @@ body,html {
     box-sizing: border-box;
 }
 
+.hello{
+    background-color: antiquewhite;
+}
 .RightContainer {
     width: 85%;
     min-height: 100vh;

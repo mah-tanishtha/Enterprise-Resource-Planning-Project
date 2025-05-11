@@ -18,7 +18,7 @@ function QualificationType() {
     return (
         <div>
             <div className='d-flex'>
-                <SideNavbar />
+                <SideNavbar name="Establishment-Admin"/>
                 <div className='RightContainer_employeeType mx-4'>
                     <div className='CreateEmp_Panel'>
                         <h6> Qualification Type :</h6>

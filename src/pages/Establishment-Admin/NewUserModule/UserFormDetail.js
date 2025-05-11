@@ -204,7 +204,7 @@ function UserFormDetail(){
     return (
         <div>
             <div className='d-flex'>
-                <SideNavbar />
+                <SideNavbar name="Establishment-Admin"/>
                 <div className='RightContainer_employee mx-4'>
                     <div className='CreateEmp_Panel'>
                         <h6>Enter Registration details here :</h6>

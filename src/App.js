@@ -40,6 +40,10 @@ import UserFormDetail from './pages/Establishment-Admin/NewUserModule/UserFormDe
 import NewEmployeeList from './pages/Establishment-Admin/NewUserModule/NewEmployeeList';
 import EmployeeRegister from './pages/Establishment-Admin/EmployeeRegister/EmployeeRegister';
 import PageSwitch from './pages/Account-Change/PageSwitch';
+import LeaveType from './pages/Leave-Module/LeaveType/LeaveType';
+import LeaveMaster from './pages/Leave-Module/Leave-Master/LeaveMaster';
+import HolidayCalender from './pages/Leave-Module/Leave-Calender/HolidayCalender';
+import LeaveApproval from './pages/Leave-Module/LeaveApproval/LeaveApproval';
 
 
 
@@ -329,6 +333,30 @@ function App() {
             <>
               <DashNavbar />
               <PageSwitch/>
+            </>
+          } />
+           <Route path="/leave-type/:leavetype" element={
+            <>
+              <DashNavbar />
+              <LeaveType/>
+            </>
+          } />
+          <Route path="/leave-master/:leavetype" element={
+            <>
+              <DashNavbar />
+              <LeaveMaster/>
+            </>
+          } />
+          <Route path="/leave-calender/:leavetype" element={
+            <>
+              <DashNavbar />
+              <HolidayCalender/>
+            </>
+          } />
+          <Route path="/leave-approval/:leavetype" element={
+            <>
+              <DashNavbar />
+              <LeaveApproval/>
             </>
           } />
         </Routes>

@@ -38,7 +38,7 @@ function PastOrganization() {
     return (
         <div>
             <div className='d-flex'>
-                <SideNavbar />
+                <SideNavbar name="Establishment-Admin"/>
                 <div className='RightContainer_DocListType mx-4'>
                     <div className='CreateEmp_DocListTypePanel'>
                         <h6> Past Organization Department :</h6>

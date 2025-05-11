@@ -36,7 +36,7 @@ function Transfer() {
     return (
         <div>
             <div className='d-flex'>
-                <SideNavbar />
+                <SideNavbar name="Establishment-Admin"/>
                 <div className='RightContainer_employeeType mx-4'>
                     <div className='CreateEmp_Panel'>
                         <h6> Transfer Details :</h6>

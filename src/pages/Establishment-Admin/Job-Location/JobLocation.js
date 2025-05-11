@@ -39,7 +39,7 @@ function JobLocation() {
     
     <div>
       <div className='d-flex'>
-                <SideNavbar />
+                <SideNavbar name="Establishment-Admin"/>
                 <div className='RightContainer_DocListType mx-4'>
                     <div className='CreateEmp_DocListTypePanel'>
                         <h6> Job Location :</h6>

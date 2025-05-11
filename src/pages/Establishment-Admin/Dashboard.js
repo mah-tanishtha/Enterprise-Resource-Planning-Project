@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Establishment-Admin/styles/Dashboard.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import SideNavbar from '../../components/SideNavbar';
 import RightFooter from '../../components/RightFooter';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -10,7 +9,14 @@ import { Link,useParams } from 'react-router-dom';
 
 function Dashboard() {
     const { AccountName } = useParams()
-    const SwitchAccountParams = AccountName
+    let SwitchAccountParams ;
+
+    if(!AccountName){
+        SwitchAccountParams = "Establishment-Admin"
+    }
+    else{
+        SwitchAccountParams = AccountName
+    }
     
     console.log(SwitchAccountParams)
     return (
@@ -22,7 +28,7 @@ function Dashboard() {
                 <div className='RightContainer d-flex flex-column'>
                    
                     <div className='dash align-self-center'>
-                    <div className="toast show align-items-center text-bg-primary m-auto my-3 border-0 toastStyle " role="alert" aria-live="assertive" aria-atomic="true">
+                    <div className="toast show align-items-center text-bg-primary m-auto my-3 border-0 toastStyle hello" role="alert" aria-live="assertive" aria-atomic="true">
                         <div className="d-flex ">
                             <div className="toast-body ">
                                 Good Evening, ! Welcome to FMDA System . You have logged in as Establishment Admin role. Your last login was on 17 Aug 23, 11:31 PM (from IP Address: 122.180.183.173).

@@ -42,7 +42,7 @@ function UploadDocuments() {
     return (
         <div>
             <div className='d-flex'>
-                <SideNavbar />
+                <SideNavbar name="Establishment-Admin"/>
                 <div className='RightContainer_UploadDoc mx-4'>
                     <div className='UploadDoc_Panel'>
                         <h6>Upload Documents here :</h6>

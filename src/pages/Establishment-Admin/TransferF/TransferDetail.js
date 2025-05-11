@@ -70,7 +70,7 @@ function TransferDetail() {
         <div>
             <div>
                 <div className='d-flex'>
-                    <SideNavbar />
+                    <SideNavbar name="Establishment-Admin"/>
                     <div className='RightContainer_DeptType mx-4'>
                         <div className='CreateEmp_DeptTypePanel'>
                             <h6> Enter Transfer Details :</h6>

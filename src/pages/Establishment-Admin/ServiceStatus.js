@@ -18,7 +18,7 @@ function ServiceStatus() {
     return (
         <div>
             <div className='d-flex'>
-                <SideNavbar />
+                <SideNavbar name="Establishment-Admin"/>
                 <div className='RightContainer_ServiceStatus mx-4'>
                     <div className='CreateEmp_ServiceStatusPanel'>
                         <h6> Service Status Update :</h6>

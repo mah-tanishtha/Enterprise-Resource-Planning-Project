@@ -23,7 +23,7 @@ function PageSwitch() {
             <div className="toast show align-items-center text-bg-primary m-auto my-3 border-0 toastStyle " role="alert" aria-live="assertive" aria-atomic="true">
               <div className="d-flex ">
                 <div className="toast-body ">
-                  Good Evening, ! Welcome to FMDA System . You have logged in as Establishment Admin role. Your last login was on 17 Aug 23, 11:31 PM (from IP Address: 122.180.183.173).
+                  Good Evening, ! Welcome to FMDA System . You have logged in as {SwitchAccountParams} role. Your last login was on 17 Aug 23, 11:31 PM (from IP Address: 122.180.183.173).
 
                 </div>
 
@@ -43,7 +43,7 @@ function PageSwitch() {
                           <FontAwesomeIcon icon={faHouse} />
                         </div>
                       </h6>
-                      <p className='para-icon' >Establishment Admin <br></br>GMDA</p>
+                      <p className='para-icon' >{SwitchAccountParams} <br></br>GMDA</p>
                       <span className='span-icon'>This account is managed by GMDA.</span>
                       <br></br>
 

@@ -38,7 +38,7 @@ function AddPastOrganization() {
   return (
     <div>
        <div className='d-flex'>
-                <SideNavbar />
+                <SideNavbar name="Establishment-Admin"/>
                 <div className='RightContainer_AddSubEmpType mx-4'>
                     <div className='CreateEmp_AddSubEmpTypePanel'>
                         <h6> Add Past Organization Details  :</h6>
